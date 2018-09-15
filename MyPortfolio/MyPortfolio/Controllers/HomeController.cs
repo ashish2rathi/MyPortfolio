@@ -18,6 +18,27 @@ namespace MyPortfolio.Controllers
             return View();
         }
 
+        public IActionResult Education()
+        {
+            ViewData["Message"] = "Qualification details will be described here.";
+
+            return View();
+        }
+
+        public IActionResult Experience()
+        {
+            ViewData["Message"] = "Work experience along with project details will be displayes here.";
+
+            return View();
+        }
+
+        public IActionResult Technology()
+        {
+            ViewData["Message"] = "Technology details will be coming here.";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
