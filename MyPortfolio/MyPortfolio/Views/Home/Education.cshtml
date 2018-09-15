@@ -1,9 +1,71 @@
 ﻿@{
-    ViewData["Title"] = "Education";
+    ViewData["Title"] = "Educational Heirarchy";
 }
 
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
 
-<br /><br /><br /><br /><br/>
-<h1>Coming Soon...</h1>
+<head>
+    <style>
+        body {
+            background-image: url('/images/Education.jpg');
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<section class="container text-center" style="padding-bottom: 20px">
+    <h3>@ViewData["Title"]</h3>
+</section>
+
+
+<section>
+    <div class="container" style="padding-bottom: 25px;">
+        <div class="col-md-6 left bg-success">
+            <div style="padding: 10px">
+                <h3 class="section-title">Bachelor of Engineering - Computer Engineering</h3>
+                Completion Year: 2014
+                <br />Grades: First Class with Distinction
+                <br />University: University of Mumbai
+            </div>
+        </div>
+        <div class="col-md-6 right space"></div>
+    </div>
+
+    <div class="container" style="padding-bottom: 25px;">
+        <div class="col-md-6 left"></div>
+        <div class="col-md-6 right bg-success">
+            <div style="padding: 10px">
+                <h3 class="section-title">Diploma in Computer Engineering</h3>
+                Completion Year: 2011
+                <br />Grades: First Class with Distinction
+                <br />Board: Maharashtra State Board of Technical Education
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="padding-bottom: 25px;">
+        <div class="col-md-6 left bg-success">
+            <div style="padding: 10px">
+                <h3 class="section-title">Higher Secondary Certificate - Computer Science</h3>
+                Completion Year: 2008
+                <br />Grades: First Class
+                <br />Board: Aurangabad Divisional Board
+            </div>
+        </div>
+        <div class="col-md-6 right"></div>
+    </div>
+
+    <div class="container" style="padding-bottom: 25px;">
+        <div class="col-md-6 left"></div>
+        <div class="col-md-6 right bg-success">
+            <div style="padding: 10px">
+                <h3 class="section-title">Secondary School Certificate</h3>
+                Completion Year: 2006
+                <br />Grades: First Class
+                <br />Board: Aurangabad Divisional Board
+            </div>
+        </div>
+    </div>
+</section>
