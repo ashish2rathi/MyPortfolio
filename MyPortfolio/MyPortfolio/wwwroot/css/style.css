@@ -43,7 +43,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .section-padding {
-    padding: 60px 0px;
+    padding: 15px 0px;
 }
 
 h2 {
@@ -152,10 +152,10 @@ banner
     }
 
 #banner {
-    background: url('../img/bg-banner.jpg') no-repeat fixed;
-    background-size: cover;
-    min-height: 650px;
-    position: relative;
+    /*background: url('../img/bg-banner.jpg') no-repeat fixed;*/
+    /*background-size: cover;*/
+    /*min-height: 300px;*/
+    /*position: relative;*/
 }
 
 .bg-color {
@@ -225,7 +225,7 @@ services
     font-size: 15px !important;
 }
 /***************************************
-cta-1
+Education
 ***************************************/
 .schedule-tab {
     background-color: #0CB8B6;
@@ -507,7 +507,7 @@ footer
     height: 50px;
     line-height: 50px;
     text-align: center;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 .bglight-blue {
